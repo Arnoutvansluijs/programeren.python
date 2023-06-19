@@ -26,7 +26,7 @@ def guess_the_number():
             print("Te hoog!")
         else:
             print(f"gefeliciteerd! je hebt het geraden in: {attempts} beurten")
-            #als je hebt gewonnen dan vraagt tie of je het opnieuw wilt spelen en kun je doen wat je zelf wilt
+            #als je hebt gewonnen dan vraagt tie of je het opnieuw wilt spelen en kun je doen wat je zelf
             play_again = input("Wil je het nog een keer spelen? (ja/nee): ")
             if play_again.lower() == "ja":
                 guess_the_number()
